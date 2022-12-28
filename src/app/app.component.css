@@ -20,7 +20,7 @@ div.contact{
 
 #banner {
     font-family: Segoe UI;
-    font-size: large;
+    font-size: larger;
     text-align: center;
 }
 
@@ -29,6 +29,7 @@ div.contact-info {
     font-size: large;
     text-align: left;
     margin-left: 3%;
+    
 }
 
 .button-container {
@@ -47,10 +48,15 @@ div.contact-info {
     margin-bottom: 5%;
 }
 
-img {
+div.menu-container {
+    margin-bottom: 15%;
+}
+
+.button-container img {
     width: 100%;
     height: 100%;
     border-radius: 30%;
+    box-shadow: 3px 3px #fae1dd;
 }
 
 ul li {
@@ -84,6 +90,6 @@ ul li:nth-child(3)::marker {
 
     to {
         font-size: 30px;
-        color: rgb(214, 139, 0);
+        color: #fae1dd;
     }
 }
